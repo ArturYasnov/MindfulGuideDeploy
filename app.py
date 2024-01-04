@@ -7,7 +7,7 @@ from src.openai_interface import get_openai_response
 
 # source ~/.zshrc
 
-BASE_PATH = "/Users/arturyasnov/Documents/assistant_project/users_info"
+BASE_PATH = "users_info"
 
 
 # Set the page to wide mode
