@@ -3,6 +3,7 @@ import re
 BASE_PATH = "users_info"
 
 
+
 def read_user_info():
     try:
         with open(f"{BASE_PATH}/user_info.txt", "r") as file:
@@ -70,5 +71,6 @@ def extract_recommended_to_user_content(text):
         formatted_string += "\n"
 
     return formatted_string.strip()
+
 
 
