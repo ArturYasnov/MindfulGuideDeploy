@@ -1,6 +1,6 @@
 import re
 
-BASE_PATH = "/Users/arturyasnov/Documents/assistant_project/users_info"
+BASE_PATH = "users_info"
 
 
 def read_user_info():
